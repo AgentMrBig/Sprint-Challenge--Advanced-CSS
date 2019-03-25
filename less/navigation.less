@@ -1,1 +1,67 @@
 // Navigation code here
+// Navigation code here
+.navContainer{
+    //margin-bottom: 8em;
+    
+    nav{
+        height: 90px;
+        width: 100%;
+        text-align:center;
+        background-color: @nav-bg;
+        border-bottom: solid 1px @border-real;
+        position:fixed;
+        
+        
+
+        // Transition animation of opacity Hover Off
+        opacity: 0.5;
+        -webkit-transition: opacity 2s;
+        -moz-transition:    opacity 2s;
+        -o-transition:      opacity 2s;
+        transition:         opacity 2s;
+
+        &:hover{
+            // Transition animation of opacity Hover On
+            opacity:1.0;
+            -webkit-transition: opacity 2s;
+            -moz-transition:    opacity 2s;
+            -o-transition:      opacity 2s;
+            transition:         opacity 2s;
+        }
+
+        h1{
+            margin-top: 10px;
+            .brand{
+                
+                
+                
+                //transform: translateX(-100rem);
+                //animation: slideIn .5s forwards;
+            }
+            a{
+                .navLinkStyle(black, 3.5em);
+            }
+
+        }
+
+        ul{
+            .flexCon;
+            max-width: 800px;
+            margin: 0 auto;
+           
+            li{
+                flex:1 1 1;
+                .linkVertPad(1rem);
+                //.linkVertMarg(1rem);
+                .linkSideMarg(1rem);
+                //.linkSidePad(1rem);
+                a{
+                    
+                    .navLinkStyle(black, 2em);
+                    
+                }
+            }
+        }
+    }
+}
+
