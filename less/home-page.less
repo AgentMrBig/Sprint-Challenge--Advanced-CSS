@@ -20,6 +20,10 @@
       p {
         padding:0 15px;
       }
+      @media @mobile{
+        margin-left: 1em;
+        margin-right: 1em;
+      }
     
     }
   
@@ -28,11 +32,22 @@
       flex-wrap: wrap;
       width: 100%;
   
+      @media @mobile{
+        .sky,.launch{
+          display: none;
+        }
+
+      }
+
       img {
         width: 28%;
         margin: 20px 2.5%;
         border-radius: 20px;
         height: 100%;
+        @media @mobile{
+          width: 100%;
+          margin: 3em;
+        }
       }
     }
   
@@ -45,6 +60,12 @@
   
       p {
         margin-top: 13px;
+      }
+
+      // mobile styling
+      @media @mobile{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
       }
     }
   
@@ -101,8 +122,8 @@
             .linkSidePad(0rem);
             //mobile styling
             @media @mobile{
-              .linkVertPad(1.7em);
-              
+              .linkVertPad(1.5em);
+              font-size: 15pt;
             }
             animation-name: textToWhite;
             animation-duration: 1.5s; 
