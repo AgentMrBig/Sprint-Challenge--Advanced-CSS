@@ -1,3 +1,4 @@
+![](https://github.com/AgentMrBig/Sprint-Challenge--Advanced-CSS/blob/Eric-Hendrix/img/advancedCSSsprintPreview.png)
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
@@ -34,13 +35,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+ANSWER: An adaptive website has specific break points or media queries at which the content will adapt while a fully responsive site will respond  continuously to any screen size.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+ANSWER: With mobile first design, global styling is for making the site work well on mobile devices and styles to control larger layouts like desktop come after inside of media queries.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+ANSWER: Whatever size the <html> tag is defined at, the rem will use this as a starting point. Then increase and decrease from there with the same principle as em.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+ANSWER: Preprocessing is a way to add functionality to css that is not there natively. The syntax is slightly different but the benefits are many.  Some benefits are  a reduction in lines of code to right, variables, functions, parametric mixins and more. Saves time and gives the programmer more power to manipulate dom styling.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+ANSWER: I think my most favorite concept of preprocessing is the nesting, it just seems so 	much more intuitive to write the css styling nested exactly how the dom is 	structured. What gave me the most trouble was escaping, grasping the intial concept 	as far as the syntax of escaping, but I got it now.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
